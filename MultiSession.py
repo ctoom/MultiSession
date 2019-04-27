@@ -5,6 +5,11 @@ from colorama import Fore, Back, Style
 from colorama import init
 from pyfiglet import figlet_format
 
+
+#TODO Add threading support
+#TODO Monitor for changes
+
+
 print(figlet_format(('rTunaboss'), font='big'))
 
 init(autoreset=True)
